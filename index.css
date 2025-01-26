@@ -1,0 +1,81 @@
+.main{
+    height: 100vh;
+    background: linear-gradient(454deg, #4f4080, #9553ff);
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.cal{
+    height: 75vh;
+    background-color: bisque;
+    width: 75vh;
+    justify-self: center;
+    justify-content: center;
+  
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 2fr;
+    
+}
+
+#box{
+    width: 90%;
+    height: 70%;
+    border: solid #9553ff;
+    
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: "Jersey 15", serif;
+    font-weight: 600px;
+    font-style: normal;
+   
+    
+    
+}
+
+.number{
+    height: 90%;
+    width: 90%;
+    background-color: bisque;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    gap: 10px;
+    
+}
+
+.input_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.btn{
+    height: 100%;
+    width: 100%;
+    background-color: #4f4080;
+    font-size: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:active{
+    box-shadow: none;
+    font-size: 42px;
+}
